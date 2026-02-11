@@ -8,7 +8,7 @@
 }
 
 .contact-hero-overlay {
-  background: rgba(0,0,0,0.55);
+  background: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
   text-align: center;
@@ -24,8 +24,11 @@
 }
 
 .contact-page {
-  padding: 100px 8%;
-  background: #f8fafc;
+
+    width: 90%;
+    padding: 50px 0px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .contact-layout {
@@ -38,13 +41,15 @@
   background: white;
   padding: 50px;
   border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.05);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 1;
 }
+
 .react-select__menu {
   z-index: 9999 !important;
 }
+
 .contact-tag {
   color: #3b79b6;
   font-size: 14px;
@@ -53,6 +58,7 @@
 .contact-form h2 {
   margin: 15px 0 40px;
 }
+
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -71,6 +77,7 @@
 .react-tel-input {
   width: 100% !important;
 }
+
 input,
 textarea,
 .react-select__control {
@@ -80,35 +87,45 @@ textarea,
   padding: 0 15px;
   font-size: 14px;
 }
+
 .react-tel-input .selected-flag {
 
-    height: 50px;
+  height: 50px;
 
 }
+
 .contact-form textarea {
   height: 140px;
   padding-top: 15px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
 }
+
 .react-tel-input .flag-dropdown {
-    height: 55px;
+  height: 55px;
 }
-.countphone .css-t3ipsp-control{
-       height: 55px;
-    width: 200px; 
-        border-radius: 12px;
-}
-.css-13cymwt-control{
 
-    border-radius: 12px !important;
+.countphone .css-t3ipsp-control {
+  height: 55px;
+  width: 200px;
+  border-radius: 12px;
+}
+
+.css-13cymwt-control {
+
+  border-radius: 12px !important;
 
 }
+
 .css-hlgwow {
-    height: 55px;
+  height: 55px;
 }
-.countphone .css-13cymwt-control{
-    height: 55px;
-    width: 200px;
+
+.countphone .css-13cymwt-control {
+  height: 55px;
+  width: 200px;
 }
+
 .react-tel-input .form-control {
   width: 100% !important;
   height: 55px !important;
@@ -117,16 +134,19 @@ textarea,
   font-size: 14px !important;
   padding-left: 50px !important;
 }
+
 .contact-form .row {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
+
 .row-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
 .contact-form button {
   background: #2f6fa3;
   color: white;
@@ -146,7 +166,7 @@ textarea,
   background: white;
   padding: 30px;
   border-radius: 18px;
-  box-shadow: 0 20px 45px rgba(0,0,0,0.05);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 992px) {

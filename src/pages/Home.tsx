@@ -1,5 +1,5 @@
 import HeroSlider from "../components/hero/HeroSlider"
-import Footer from "../components/layout/Footer"
+import Aboutimg from "../assets/about-one-shape-1.png"
 import AboutSection from "../components/sections/AboutSection"
 import Achievements from "../components/sections/Achievements"
 import BlogSection from "../components/sections/BlogSection"
@@ -7,6 +7,7 @@ import ContactSection from "../components/sections/ContactSection"
 import PremiumSelection from "../components/sections/PremiumSelection"
 import ProductRange from "../components/sections/ProductRange"
 import TestimonialSlider from "../components/sections/TestimonialSlider"
+import AboutEliteSection from "../components/sections/AboutEliteSection"
 
 const Home = () => {
   return (
@@ -17,17 +18,24 @@ const Home = () => {
       </section>
 
       {/* PremiumSelection Section */}
-      <section className="hero">
+      <section className="hero-container">
         <PremiumSelection />
       </section>
+      {/* About Preview */}
+      <section className="about-float">
+        <AboutEliteSection/>
+        <img src={Aboutimg} alt="Shape 1" className="float-bob-x"></img>
+      </section>
+
 
       {/* About Preview */}
       <section className="about-preview">
         <AboutSection />
+        <img src={Aboutimg} alt="Shape 1" className="float-bob-x"></img>
       </section>
 
       {/* Product Highlight */}
-      <section className="product-highlight">
+      <section className="product-highlightls">
         <ProductRange />
       </section>
 
@@ -47,14 +55,10 @@ const Home = () => {
       </section>
 
       {/* Blog Section */}
-      <section className="contact-slider">
         <BlogSection />
-      </section>
+ 
 
-      {/* Footer Section */}
-      <section className="footer-slider">
-        <Footer/>
-      </section>
+
 
     </main>
   )

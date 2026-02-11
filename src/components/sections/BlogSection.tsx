@@ -1,7 +1,15 @@
+import React from "react";
 import blogImg from "../../assets/Kuber-Dairy-Group-Anhydrous-Milk-Fat.png";
+import "../../styles/blogSection.css";
 
-const BlogSection = () => {
-    const blogs = [
+interface Blog {
+    id: number;
+    date: string;
+    title: string;
+}
+
+const BlogSection: React.FC = () => {
+    const blogs: Blog[] = [
         {
             id: 1,
             date: "26 Sep",
@@ -17,35 +25,44 @@ const BlogSection = () => {
             date: "07 Nov",
             title: "High-Quality Dairy Products by Kuber – Dairy Products Online",
         },
+        {
+            id: 4,
+            date: "07 Nov",
+            title: "High-Quality Dairy Products by Kuber – Dairy Products Online",
+        },
     ];
 
     return (
         <section className="blog-section">
+            <div className="blog-container">
+                <div className="premium-header">
+                    <span className="premium-subtitle">From The Blog</span>
+                    <h2 className="premium-title">
+                        Latest News & Insights
+                    </h2>
+                    <div className="premium-line"></div>
+                </div>
 
-            <div className="premium-header">
-                <span className="premium-subtitle">
-                    From the Blog Post
-                </span>
-                <h2 className="premium-title">
-                    Latest News & Articles
-                </h2>
-                <div className="premium-line"></div>
-            </div>
+                <div className="blog-grid">
+                    {blogs.map((blog) => (
+                        <article key={blog.id} className="blog-card">
+                            <div className="blog-image">
+                                <img src={blogImg} alt={blog.title} />
+                                <div className="blog-date">{blog.date}</div>
+                            </div>
 
-            <div className="blog-grid">
-                {blogs.map((blog) => (
-                    <div key={blog.id} className="blog-card">
-                        <div className="blog-image">
-                            <img src={blogImg} alt="blog" />
-                            <div className="blog-date">{blog.date}</div>
-                        </div>
-
-                        <div className="blog-content">
-                            <p className="blog-author">Vidhi Brahmbhatt</p>
-                            <h3>{blog.title}</h3>
-                        </div>
-                    </div>
-                ))}
+                            <div className="blog-content">
+                                <span className="blog-author">
+                                    By Vidhi Brahmbhatt
+                                </span>
+                                <h3 className="blog-title">{blog.title}</h3>
+                                <button className="blog-btn">
+                                    Read More →
+                                </button>
+                            </div>
+                        </article>
+                    ))}
+                </div>
             </div>
         </section>
     );

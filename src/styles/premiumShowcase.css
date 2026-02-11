@@ -1,0 +1,109 @@
+/* =========================
+   PREMIUM SHOWCASE SLIDER
+========================= */
+.hero-container {
+
+    background: radial-gradient(circle at top,
+            rgba(59, 130, 246, 0.08),
+            transparent 60%),
+        linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+.showcase-section {
+    width: 90%;
+    padding: 50px 0px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.showcase-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* ===== Header ===== */
+
+.showcase-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.showcase-subtitle {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    color: white;
+    padding: 0px 10px;
+}
+
+.showcase-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+.showcase-line {
+width: 90px;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+    margin: 0px auto 0;
+    border-radius: 50px;
+}
+
+/* ===== Swiper ===== */
+
+.showcase-swiper {
+    padding-bottom: 40px;
+}
+
+/* ===== Card ===== */
+
+.showcase-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 60px 30px;
+    transition: all 0.4s ease;
+
+}
+
+.showcase-card:hover {
+    transform: translate(-2px);
+
+}
+
+/* ===== Image Wrapper ===== */
+
+.showcase-img-wrapper {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.showcase-card:hover img {
+    transform: scale(1.08);
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+    .showcase-title {
+        font-size: 32px;
+    }
+
+    .showcase-section {
+        padding: 80px 20px;
+    }
+}

@@ -3,8 +3,8 @@ import StorygImg from "../../assets/about-big-400-x-538-px.png";
 
 const AboutStory: React.FC = () => {
     return (
-        <section className="about-story container">
-            <div className="about-story-grid">
+        <section className="about-story">
+            <div className="about-story-grid container">
                 <div className="about-img">
                     <img src={StorygImg} alt="Dairy Farm" />
                 </div>

@@ -1,9 +1,11 @@
 .tech-slider-section {
   padding: 50px 5%;
   background: #f8f9fa;
-
 }
-
+.tech-slider-section .container{
+    max-width: 1300px;
+    margin: auto;
+}
 /* Header */
 .tech-header {
   text-align: center;
