@@ -539,7 +539,7 @@ body {
 @media (min-width:1600px) {
     .nav-links {
 
-        gap: 50px;
+        gap: 20px;
 
     }
 }
@@ -1197,4 +1197,5 @@ button:hover {
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+
 }
