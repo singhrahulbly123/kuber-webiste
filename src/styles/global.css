@@ -906,6 +906,7 @@ textarea {
 textarea {
     resize: none;
     margin-bottom: 30px;
+    height: 130px;
 }
 
 button {
@@ -1197,5 +1198,4 @@ button:hover {
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-
 }
