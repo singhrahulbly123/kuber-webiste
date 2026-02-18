@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
+import AchievementsPage from "./pages/Achievements";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetails />} />
+        <Route path="/our-achievements" element={<AchievementsPage/>} />
       </Routes>
       <Footer />
     </>
