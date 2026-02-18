@@ -11,7 +11,7 @@
 
 .showcase-section {
     width: 90%;
-    padding: 50px 0px;
+    padding: 30px 0px;
     max-width: 1300px;
     margin: auto;
 }
@@ -57,7 +57,7 @@ width: 90px;
 /* ===== Swiper ===== */
 
 .showcase-swiper {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 /* ===== Card ===== */
@@ -104,6 +104,6 @@ width: 90px;
     }
 
     .showcase-section {
-        padding: 80px 20px;
+        padding: 30px 20px;
     }
 }
