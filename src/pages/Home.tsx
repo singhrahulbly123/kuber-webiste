@@ -7,7 +7,6 @@ import ContactSection from "../components/sections/ContactSection"
 import PremiumSelection from "../components/sections/PremiumSelection"
 import ProductRange from "../components/sections/ProductRange"
 import TestimonialSlider from "../components/sections/TestimonialSlider"
-import AboutEliteSection from "../components/sections/AboutEliteSection"
 
 const Home = () => {
   return (
@@ -61,3 +60,4 @@ const Home = () => {
 }
 
 export default Home
+
