@@ -99,7 +99,7 @@ const Footer = () => {
 
             {/* Bottom Bar */}
             <div className="footer-bottom">
-                <p>© 2026 Kuber Dairy Group. All Rights Reserved.</p>
+                <p>© 2026 Kuber Dairy Group. All Rights Reserved. Developed By HRM Infosec</p>
 
                 <div className="socials">
                     <FaFacebookF />
@@ -121,3 +121,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
