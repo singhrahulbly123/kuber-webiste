@@ -11,11 +11,12 @@ const ProductCard = ({ product }: { product: Product }) => {
       <div className="product-body">
         <h3>{product.title}</h3>
         <p>{product.shortDesc}</p>
-        <button class="view-product">View Product →</button>
+        <button className="view-product">View Product →</button>
       </div>
     </Link>
   );
 };
 
 export default ProductCard;
+
 
