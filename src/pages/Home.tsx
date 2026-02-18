@@ -21,11 +21,7 @@ const Home = () => {
       <section className="hero-container">
         <PremiumSelection />
       </section>
-      {/* About Preview */}
-      <section className="about-float">
-        <AboutEliteSection/>
-        <img src={Aboutimg} alt="Shape 1" className="float-bob-x"></img>
-      </section>
+
 
 
       {/* About Preview */}

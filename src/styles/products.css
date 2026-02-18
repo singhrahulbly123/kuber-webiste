@@ -1,6 +1,8 @@
 .products-page {
-  padding: 80px 6%;
-  background: #f8fafc;
+    width: 90%;
+    padding: 50px 0px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .products-header {
@@ -56,9 +58,7 @@
 
 /* DETAILS */
 
-.product-detail-page {
-  padding: 80px 6%;
-}
+
 
 .product-detail-container {
   display: grid;
@@ -104,10 +104,13 @@
 
 
 .product-layout {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 40px;
-  padding: 80px 6%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    width: 90%;
+    padding: 50px 0px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .product-sidebar {
