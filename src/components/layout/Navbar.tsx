@@ -47,7 +47,7 @@ const Navbar = () => {
                   <div className="dropdown-menu">
                     <NavLink to="/managing-director-desk">From MD's Desk</NavLink>
                     <NavLink to="/technology">Technology</NavLink>
-                    <NavLink to="/achievements">Achievements in dairy</NavLink>
+                    <NavLink to="/our-achievements">Achievements in dairy</NavLink>
                   </div>
                 )}
               </div>
@@ -209,4 +209,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
