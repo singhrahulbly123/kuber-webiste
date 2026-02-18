@@ -10,7 +10,7 @@ const ProductCard = ({ product }: { product: Product }) => {
 
       <div className="product-body">
         <h3>{product.title}</h3>
-        <p>{product.shortDesc}</p>
+        <p className="line-clamp-2">{product.shortDesc}</p>
         <button className="view-product">View Product →</button>
       </div>
     </Link>
@@ -18,5 +18,6 @@ const ProductCard = ({ product }: { product: Product }) => {
 };
 
 export default ProductCard;
+
 
 
