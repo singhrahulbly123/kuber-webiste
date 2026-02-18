@@ -29,6 +29,9 @@ const Navbar = () => {
               <NavLink to="/" className="nav-item">
                 Home
               </NavLink>
+               <NavLink to="/products" className="nav-item">
+                Products
+              </NavLink>
 
               {/* ABOUT DROPDOWN */}
               <div
@@ -206,3 +209,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
